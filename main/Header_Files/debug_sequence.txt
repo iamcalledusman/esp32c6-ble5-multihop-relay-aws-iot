@@ -1,0 +1,33 @@
+[FLOW-01] Peripheral role selected
+[FLOW-03] Peripheral normal EXT ADV started
+
+[FLOW-04] Central role selected
+[FLOW-10] Central EXT ADV + PA start request
+[FLOW-11] Central EXT ADV started
+[FLOW-12] Central PA started
+
+[FLOW-13] Child received parent normal ADV
+[FLOW-14] Child compared parent candidate
+[FLOW-15] Child selected best parent
+[FLOW-16] Child sync timer started
+[FLOW-18] Child synced to parent PA
+[FLOW-20] Child received first parent PA report
+[FLOW-23] Child started PRP_ACK_BEACON
+
+[FLOW-24] Parent received PRP_ACK_BEACON
+[FLOW-27] Parent marked PRP_ACK received
+[FLOW-28] Parent stopped normal EXT ADV
+[FLOW-30] Parent queued sync to child PA
+[FLOW-33] Parent synced to child PA
+[FLOW-34] Parent received first child PA report
+[FLOW-37] Parent started CEN_ACK_BEACON
+
+[FLOW-38] Child received CEN_ACK and role became Repeater
+[FLOW-39] Repeater ignored Wi-Fi/GPIO role overwrite
+
+01–03 = Peripheral boot
+04–12 = Central boot/PA start
+13–23 = Child syncs to parent
+24–37 = Parent syncs back to child and sends ACK
+38–39 = Child becomes Repeater
+

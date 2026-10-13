@@ -1,0 +1,32 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.openOcdConfigs": [
+    "board/esp32c6-builtin.cfg"
+  ],
+  "idf.flashType": "UART",
+  "files.associations": {
+    "cstdint": "c",
+    "random": "c",
+    "common_mode.h": "c",
+    "central_mode.h": "c",
+    "repeater_mode.h": "c",
+    "device_type_utils.h": "c",
+    "esp_bt.h": "c",
+    "log.h": "c",
+    "ble_sync_utils.h": "c",
+    "ble_node_context.h": "c",
+    "esp_gap_ble_api.h": "c",
+    "esp_log.h": "c",
+    "ble_comm_struct.h": "c"
+  },
+  "idf.customExtraVars": {},
+
+  "clangd.path": "C:\\Users\\M.USMAN\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\Users\\M.USMAN\\Desktop\\test\\All-in-One\\build"
+  ],
+  "idf.currentSetup": "C:\\Users\\M.USMAN\\esp\\v5.5.1\\esp-idf",
+  "idf.port": "COM6"
+}

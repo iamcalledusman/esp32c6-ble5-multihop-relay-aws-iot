@@ -1,0 +1,6 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 200
+UseTab: Never
+BreakBeforeBraces: Attach
+SpacesBeforeTrailingComments: 2

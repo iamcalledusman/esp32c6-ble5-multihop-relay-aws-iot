@@ -1,0 +1,25 @@
+menu "Example 'PERIODIC ADVERTISING' Config"
+
+    config EXAMPLE_CI_ID
+        int
+        default 110
+        help
+            This config the example id for CI test. Only for internal used.
+
+    config EXAMPLE_CI_PIPELINE_ID
+        int "The pipeline id for CI test"
+        default 0
+        help
+            This config the pipeline id for CI test. Only for internal used.
+
+    #
+# Project-specific Kconfig overrides
+#
+
+    config BT_CTRL_BLE_MAX_ACT
+        int "BLE max controller activities"
+        range 1 10
+        default 8
+        help
+           Maximum number of concurrent BLE controller activities
+endmenu
